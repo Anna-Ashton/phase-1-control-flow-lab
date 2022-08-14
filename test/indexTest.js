@@ -10,6 +10,7 @@ describe('index.js', function () {
 
     it('does not allow rides over 2500 feet', function () {
       expect(scuberGreetingForFeet(2501)).to.equal('No can do.');
+    
     });
   });
 
